@@ -1,0 +1,32 @@
+
+
+html,body {
+    height: 100%;
+}
+img {
+    max-width: 100%;
+} 
+
+/* cover */ 
+
+#cover {
+    background: #222 url("../images/city.jpg") center center no-repeat;
+    background-size: cover;
+     opacity: 1.0;
+    color: white;
+    height: 100%;
+    text-align: left;
+    display: flex;
+    align-items:center;
+}
+.carousel-inner {
+    margin-top: 15px;
+}
+
+.card-deck {
+    margin-top: 15px;
+}
+
+#section {
+    margin-top: 20px;
+}
